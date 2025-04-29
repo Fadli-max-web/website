@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surat Untukmu</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100hv;
+        background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center fixed;
+        background-size: cover;
+        animation: backgroundMove 30s infinite alternate ease-in-out;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @keyframes backgroundMove {
+        0% {background-position: center center;}
+        100% {background-position: center top;}
+    }
+
+    .surat-container {
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 40px;
+        border-radius: 15px;
+        width: 80%;
+        max-width: 700px;
+        box-shadow: 0 0 20px rgba(255, 225, 255, 0.3);
+    }
+
+    .judul {
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+        animation: colorChange 3s infinite alternate;
+    }
+
+    @keyframes colorChange {
+        0% { color: #ffd700; }
+        50% { color: #00ffff; }
+        100% { color: #ff69b4; }
+    }
+
+    .isi-surat {
+        font-size: 18px;
+        line-height: 1.6;
+        white-space: pre-line;
+        overflow: hidden;
+        border-right: .15em solid orange;
+        animation: typing 5s steps(100, end), blink-caret .75s steps-end infinite;
+    }
+
+    @keyframes typing {
+        from { width: 0; }
+        to { width: 100%; }
+    }
+
+    @keyframes blink-caret {
+        from, to { border-color: transparent; }
+        50% { border-color: orange; }
+    }
+</style>
+<body>
+    <div class="surat-container">
+        <div class="judul">Ini Surat Untukmuu</div>
+        <div class="isi-surat">
+            Halloo...
+
+            Gimana kabarmuu hari inii?... Sehat?
+
+            Aku cuman mau ngomong bentar aja sii
+            Kita ini kann baru kenall belum lama yaa?? 
+            Dan kita beda pulau jugaa
+            Sedih kalii
+
+            Kamu mau tauu gaa nama lengkap kuu?? agak malu sii tapi gapapa laa
+            Nama lengkap ku itu -Fadli Darismaisya Putra- yaa biasa di panggil Fadli
+            
+            Anjirr lahhh gabutt kalii nii aku efort bikin web kek ginii njirr
+            Tapi gapapa inii juga salah satu dari hobi kuu juga
+
+            Sebenenya yaa aku ituu nunggu kmu nanya balik tentangku sii
+            Tapii... akuu udah seneng kok kmuu bales chat akuu jugaa
+
+            Terus akuu boleh tau nggaa nama lengkap kmuu?? kalo kamuu gamau gapapa sii ga maksa
+            
+            Sebenenya inii mau ngomong banyak di otak tuhh tapii bingungg
+            Yaa udahh lahh alay juga kalo dilanjutinn wkwkwk
+
+            Makasih yaa udahh jadii orang baikk...
+            Kaloo mau bilang apa apa ke aku ajaa misalnya udah bosen tinggal chat aku aja yaa
+            Gapapa kokk
+
+            Byee orang baikk
+        </div>
+    </div>
+</body>
+</html>
